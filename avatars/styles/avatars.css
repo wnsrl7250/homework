@@ -1,0 +1,46 @@
+span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid white;
+  position: absolute;
+  bottom: 13px;
+  right: 10px;
+}
+
+.float {
+  overflow: hidden;
+}
+
+.img-wrapper {
+  position: relative;
+  float: left;
+}
+
+.flex {
+  display: flex;
+  justify-content: start;
+}
+
+.img-flex {
+  position: relative;
+}
+
+img {
+  width: 64px;
+  height: 64px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.offline {
+  background-color: #dbdbdb;
+}
+
+.online {
+  background-color: #4cfe88;
+}
+
+.line {
+  clear: left;
+}
