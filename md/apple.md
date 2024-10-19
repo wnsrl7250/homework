@@ -22,6 +22,12 @@
 
 - Large Screen에서 `--extra-large-spacing`를 적용했을 때 상품 이미지와 버튼이 겹쳐서 상단 여백은 미디어 쿼리를 적용하지 않았습니다.
 
+## 결과
+
+<p align=center>
+  <img src="./../assets/apple/apple-screen.gif" width="500">
+</p>
+
 ## 아쉬운점
 
 화면을 구현하고 나서 css코드를 봤을때 뭔가 반복되는 내용이 많다고 느꼈다. 여전히 내 코드에 대한 자신이 없다. 어떻게 하면 더 효율적인 코드를 작성할수 있을지 고민이 된다.
