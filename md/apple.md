@@ -16,7 +16,7 @@
 
 - 디바이스의 `픽셀 밀도`에 따라 1배율 또는 2배율 이미지가 배경으로 반영되도록 한다.
 
-  - `background-image: image-set(url(./../products/ipad_air.jpeg) 1x,url(./../products/ipad_air_wide.jpeg) 2x` 로 디바이스의 픽셀 밀도에 따라 1배율 또는 2배율 이미지가 적절하게 반영되도록 했다.
+  - `background-image: image-set(url(./../products/ipad_air.jpeg) 1x,url(./../products/ipad_air_2x.jpeg) 2x` 로 디바이스의 픽셀 밀도에 따라 1배율 또는 2배율 이미지가 적절하게 반영되도록 했다.
 
 - 같은 `card`이지만 글자 색과 버튼의 색이 다른걸 반영하기 위해 `:nth-child(odd/even)`을 사용하여 홀수번째 상품과 짝수번째 상품의 다른 스타일을 구현했다.
 
